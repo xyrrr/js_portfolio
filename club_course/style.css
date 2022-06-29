@@ -10,5 +10,21 @@ table {
 }
 
 td {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid grey;
+}
+
+th {
+    border-bottom: 2px solid steelblue;
+}
+
+.tr1 {
+    background-color: lightsteelblue;
+}
+
+.tr2 {
+    background-color: white;
+}
+
+.td1 {
+    color: gainsboro;
 }

@@ -7,20 +7,29 @@ let topic = [
     "條件判斷"
 ];
 
-// let startDate = new Date();  // catch當下的moment
+let startDate = new Date();  // catch當下的moment
 
-let startDate = $("#myDate").val();
+// let startDate = $("#myDate").val();
 console.log(startDate);
 // startDate.addEventListener("change",setMonthAndDay);
 
 
 function setMonthAndDay(startMonth, startDay) {
 // 一次設定好月份跟日期
-    let startDate = 
     startDate.setMonth(startMonth - 1, startDay);
     startDate.setHours(0);
     startDate.setMinutes(0);
     startDate.setSeconds(0);
-}
+};
 
 // setMonthAndDay(2, 20);
+
+let dn = 0;
+
+function changeDate(){
+    let d = new Date(start.value)
+    setMonthAndDay(d.getMonth()+1, d.getDate());
+    $("#courseTable").empty();
+    dn++;
+    main();
+};
