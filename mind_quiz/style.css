@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-color:aliceblue;
+}
+#question {
+    margin-top: 50px;
+    text-align: center;
+    font-weight:bold;
+    color:steelblue;
+}
+#options {
+    margin-top: 50px;
+    font-size: 20px;
+    text-align:center;
+}
+#startButton {
+    margin-top: 40px;
+}

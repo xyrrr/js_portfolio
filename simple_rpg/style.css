@@ -1,0 +1,21 @@
+h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+body {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+canvas {
+    border: 2px solid darkolivegreen;
+    background-image: url(images/grasses68.gif);
+}
+
+#talkBox {
+    padding: 20px;
+    height: 20px;
+    color: steelblue;
+    font-size:30px;
+    font-weight: bold;
+}
